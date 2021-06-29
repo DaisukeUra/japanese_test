@@ -2,7 +2,7 @@
 
 [Discussion in wowchemy repository](https://github.com/wowchemy/wowchemy-hugo-modules/discussions/2360#discussion-3436100)
 
-![](output.gif)
+![](random.gif)
 
 # How to
 
