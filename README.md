@@ -1,37 +1,34 @@
-# Wowchemy's Research Group Template for [Hugo](https://github.com/gohugoio/hugo)
+# In wowchemy theme, author pages randomly produced that include Japanese title.
 
-The **Research Group Template** empowers your research group to easily create a beautiful website with a stunning homepage, news, academic publications, events, team profiles, and a contact form.
+[Discussion in wowchemy repository](https://github.com/wowchemy/wowchemy-hugo-modules/discussions/2360#discussion-3436100)
 
-[Check out the latest demo](https://research-group.netlify.app/) of what you'll get in less than 5 minutes, or [view the showcase](https://wowchemy.com/user-stories/).
+![](output.gif)
 
-_[**Wowchemy**](https://wowchemy.com) makes it easy to create a beautiful website for free. Edit your site in Markdown, Jupyter, or RStudio (via Blogdown), generate it with Hugo, and deploy with GitHub or Netlify. Customize anything on your site with widgets, themes, and language packs._
+# How to
 
-- 👉 [**Get Started**](https://wowchemy.com/templates/)
-- 📚 [View the **documentation**](https://wowchemy.com/docs/)
-- 💬 [Chat with the **Wowchemy community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- 🐦 Twitter: [@wowchemy](https://twitter.com/wowchemy) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithWowchemy](https://twitter.com/search?q=(%23MadeWithWowchemy%20OR%20%23MadeWithAcademic)&src=typed_query)
-- 💡 [Request a **feature** or report a **bug** for _Wowchemy_](https://github.com/wowchemy/wowchemy-hugo-modules/issues)
-- ⬆️ **Updating Wowchemy?** View the [Update Guide](https://wowchemy.com/docs/update/) and [Release Notes](https://wowchemy.com/updates/)
+1. Execute `hugo server`.
+2. Access `localhost:1313` .
+3. Select "People" menu.
+4. Select "山田 次郎".
+5. Open `content/authors/yamada-jiro/_index.md` in your editor.
+6. Add any changes in the file and save it (if you use vscode, `Ctrl + S` without any changes).
+7. Hot reload author page.
+8. Repeat step 6.
+9. You can see that the page sometimes changes.
 
-## Crowd-funded open-source software
+George Smith's page shows his profile and Latest, which is the ideal output.
+In 山田 次郎's page, one of them appears to be displayed randomly.
 
-To help us develop this template and software sustainably under the MIT license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship.
+## Japanese name author's page
 
-### [❤️ Click here to unlock rewards with sponsorship](https://wowchemy.com/plans/)
+![](japanese_1.png)
 
-## Ecosystem
+![](japanese_2.png)
 
-* **[Hugo Academic CLI](https://github.com/wowchemy/hugo-academic-cli/):** Automatically import publications from BibTeX
+Randomly selected from two
 
-[![Screenshot](./preview.png)](https://wowchemy.com/templates/)
+## English name author's page
 
-## Demo Credits
+![](correct.png)
 
-Please replace the demo images with your own.
-
-- [Female scientist](https://unsplash.com/photos/uVnRa6mOLOM)
-- [2 Coders](https://unsplash.com/photos/kwzWjTnDPLk)
-- [Cafe](https://unsplash.com/photos/RnDGGnMEOao)
-
-
-[![Analytics](https://ga-beacon.appspot.com/UA-78646709-2/starter-research-group/readme?pixel)](https://github.com/igrigorik/ga-beacon)
+It is a correct output.
